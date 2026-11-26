@@ -1,0 +1,10 @@
+Origin latitude: 14.3409
+Origin longitude: 100.54353
+Scale: 1
+Flat local Y: -1
+Height range: 23
+Heightmap resolution: 1025
+Flip RAW rows: false
+RAW big endian: false
+Local bounds X -141.83193969726562 to 4552.44091796875, Z -121.38760375976562 to 3177.3154296875
+Source: output_hh.tif; WGS84; bilinear resampling; source elevation units assumed metres.

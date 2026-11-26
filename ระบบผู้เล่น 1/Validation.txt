@@ -1,0 +1,20 @@
+OFFLINE VALIDATION - AYUTTHAYA SHOPHOUSE V2
+Modules: 157
+Binary meshes: 441
+Visible intact triangles (includes door glass): 14968
+Visible intact vertices (includes door glass): 29040
+All saved mesh triangles (includes inactive fragments and ramps): 18024
+All saved mesh vertices: 35318
+Prefractured pieces: 282
+Breakable solid panels: 27
+Breakable fixed glass panes: 30
+Degenerate triangles: 0
+Normal-facing mismatch: 0
+UV values outside [0,1]: 0
+Index range: pass
+Binary lengths and manifest references: pass
+8 PNG maps 4096x4096: pass
+Metallic R / Smoothness A sample checks: pass
+C# bracket balance: pass (not compilation)
+Unity compile and playmode: NOT TESTED
+AO neutral; normal and other maps approximate, not high-poly bake.

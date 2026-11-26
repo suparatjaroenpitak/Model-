@@ -1,0 +1,4538 @@
+{
+  "modules": [
+    {
+      "name": "Sidewalk",
+      "pos": [
+        0,
+        -0.13,
+        -1.7
+      ],
+      "kind": "static",
+      "collider": "box",
+      "group": -1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "GroundFloor",
+      "pos": [
+        0,
+        -0.1,
+        8
+      ],
+      "kind": "static",
+      "collider": "box",
+      "group": -1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_0_0",
+      "pos": [
+        -3.87,
+        3.1799999999999997,
+        7.99
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_0_1",
+      "pos": [
+        0.0,
+        3.1799999999999997,
+        7.99
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_0_2",
+      "pos": [
+        2.625,
+        3.1799999999999997,
+        7.99
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_0_3",
+      "pos": [
+        4.495,
+        3.1799999999999997,
+        4.005
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_0_4",
+      "pos": [
+        4.495,
+        3.1799999999999997,
+        14.985
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_1_0",
+      "pos": [
+        -3.87,
+        6.4799999999999995,
+        7.99
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_1_1",
+      "pos": [
+        0.0,
+        6.4799999999999995,
+        7.99
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_1_2",
+      "pos": [
+        2.625,
+        6.4799999999999995,
+        7.99
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_1_3",
+      "pos": [
+        4.495,
+        6.4799999999999995,
+        4.005
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Deck_1_4",
+      "pos": [
+        4.495,
+        6.4799999999999995,
+        14.985
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Roof_0",
+      "pos": [
+        -3.87,
+        9.78,
+        8
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 3,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Roof_1",
+      "pos": [
+        0.0,
+        9.78,
+        8
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 3,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Roof_2",
+      "pos": [
+        3.87,
+        9.78,
+        8
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 3,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_0_0",
+      "pos": [
+        -5.83,
+        1.53,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_0_0_Frag0",
+          "pos": [
+            -0.08009048698262836,
+            -1.2342665828653976,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_0_Frag1",
+          "pos": [
+            0.007965900338926996,
+            -0.6130774350769317,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_0_Frag2",
+          "pos": [
+            0.08990951301737166,
+            -1.2389160943640158,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_0_Frag3",
+          "pos": [
+            0.0,
+            0.1608883976952483,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_0_Frag4",
+          "pos": [
+            0.0,
+            0.671778593550464,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_0_Frag5",
+          "pos": [
+            0.0,
+            1.2103955187507769,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_0_0",
+      "pos": [
+        -5.83,
+        2.99,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_0_1",
+      "pos": [
+        -2,
+        1.53,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_0_1_Frag0",
+          "pos": [
+            -0.1112627929121552,
+            -0.8851472242134709,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_1_Frag1",
+          "pos": [
+            0.001242324252706889,
+            -1.2566682020457658,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_1_Frag2",
+          "pos": [
+            0.0012423242527068834,
+            -0.5441741986135973,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_1_Frag3",
+          "pos": [
+            -0.0022413524073824744,
+            1.206245289148901,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_1_Frag4",
+          "pos": [
+            -0.0022413524073824466,
+            0.45966012043606364,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_1_Frag5",
+          "pos": [
+            0.10959774598769594,
+            0.9384209677408334,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_0_1",
+      "pos": [
+        -2,
+        2.99,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_0_2",
+      "pos": [
+        2,
+        1.53,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_0_2_Frag0",
+          "pos": [
+            0.0,
+            -0.2493078705081126,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_2_Frag1",
+          "pos": [
+            0.0,
+            -1.1713233232894518,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_2_Frag2",
+          "pos": [
+            0.0,
+            -0.6594448647200911,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_2_Frag3",
+          "pos": [
+            -0.057034794392406454,
+            1.0882203426524788,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_2_Frag4",
+          "pos": [
+            -0.007390231618770093,
+            0.3818108415627048,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_2_Frag5",
+          "pos": [
+            0.11296520560759356,
+            1.0791301065083965,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_0_2",
+      "pos": [
+        2,
+        2.99,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_0_3",
+      "pos": [
+        5.83,
+        1.53,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_0_3_Frag0",
+          "pos": [
+            -0.013605807968496286,
+            -0.389675911174447,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_3_Frag1",
+          "pos": [
+            0.06261009753086315,
+            -0.6052845164265878,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_3_Frag2",
+          "pos": [
+            -0.03043394148148198,
+            -1.102733608324248,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_3_Frag3",
+          "pos": [
+            -0.09590543047282718,
+            0.32904142891322175,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_3_Frag4",
+          "pos": [
+            0.07409456952717283,
+            0.3066731479259409,
+            0
+          ]
+        },
+        {
+          "name": "Column_0_3_Frag5",
+          "pos": [
+            -0.02283131629754843,
+            1.0604255951417327,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_0_3",
+      "pos": [
+        5.83,
+        2.99,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Beam_0_0",
+      "pos": [
+        -4,
+        3.12,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_0_0_Frag0",
+          "pos": [
+            -1.5278595786861098,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_0_Frag1",
+          "pos": [
+            -0.3309377250208957,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_0_Frag2",
+          "pos": [
+            0.7668770543296715,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_0_Frag3",
+          "pos": [
+            -0.9195868042379636,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_0_Frag4",
+          "pos": [
+            0.20364787933077552,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_0_Frag5",
+          "pos": [
+            1.449018675529854,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_0_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Beam_0_1",
+      "pos": [
+        0,
+        3.12,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_0_1_Frag0",
+          "pos": [
+            -1.1447076255503716,
+            -0.08289761603718633,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_1_Frag1",
+          "pos": [
+            0.4637624517542032,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_1_Frag2",
+          "pos": [
+            1.0542036985035454,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_1_Frag3",
+          "pos": [
+            -1.149595853798306,
+            0.09710238396281365,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_1_Frag4",
+          "pos": [
+            -0.1974032560662527,
+            -0.0034485128671002453,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_1_Frag5",
+          "pos": [
+            1.607086381406956,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_0_1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Beam_0_2",
+      "pos": [
+        4,
+        3.12,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_0_2_Frag0",
+          "pos": [
+            -1.4996355672674118,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_2_Frag1",
+          "pos": [
+            0.19658195943730972,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_2_Frag2",
+          "pos": [
+            0.8684634929447268,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_2_Frag3",
+          "pos": [
+            -0.8955104907666906,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_2_Frag4",
+          "pos": [
+            -0.3483353546993515,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_0_2_Frag5",
+          "pos": [
+            1.5444211023073442,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_0_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Side_0_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Side_0_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_1_0",
+      "pos": [
+        -5.83,
+        4.83,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_1_0_Frag0",
+          "pos": [
+            -0.09623465241062497,
+            -0.6104952861823459,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_0_Frag1",
+          "pos": [
+            0.010259208553625016,
+            -1.0445520601080167,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_0_Frag2",
+          "pos": [
+            0.01025920855362501,
+            -0.2839280526673025,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_0_Frag3",
+          "pos": [
+            0.0,
+            0.36098560088705356,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_0_Frag4",
+          "pos": [
+            0.0,
+            0.7637131673370695,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_0_Frag5",
+          "pos": [
+            0.0,
+            1.2177333825735708,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_1_0",
+      "pos": [
+        -5.83,
+        6.29,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_1_1",
+      "pos": [
+        -2,
+        4.83,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_1_1_Frag0",
+          "pos": [
+            -0.12989241155616998,
+            -0.39419681656010863,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_1_Frag1",
+          "pos": [
+            0.057670039199799114,
+            -0.2849429998366057,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_1_Frag2",
+          "pos": [
+            -0.022762584284664593,
+            -1.085420885284544,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_1_Frag3",
+          "pos": [
+            -0.07631991075066194,
+            0.341217050328119,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_1_Frag4",
+          "pos": [
+            -0.02075253423512532,
+            1.1084244762908058,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_1_Frag5",
+          "pos": [
+            0.09103929276201222,
+            0.4416885618957188,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_1_1",
+      "pos": [
+        -2,
+        6.29,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_1_2",
+      "pos": [
+        2,
+        4.83,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_1_2_Frag0",
+          "pos": [
+            -0.08591551050741109,
+            -0.7142847412447856,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_2_Frag1",
+          "pos": [
+            0.01645069369555339,
+            -1.121334218827294,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_2_Frag2",
+          "pos": [
+            0.00435088590556854,
+            -0.23419549402309212,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_2_Frag3",
+          "pos": [
+            -0.10800853658243884,
+            0.7034127118919213,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_2_Frag4",
+          "pos": [
+            -0.007177198657079919,
+            1.3155693723269075,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_2_Frag5",
+          "pos": [
+            0.06199146341756118,
+            0.6310581119383709,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_1_2",
+      "pos": [
+        2,
+        6.29,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_1_3",
+      "pos": [
+        5.83,
+        4.83,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_1_3_Frag0",
+          "pos": [
+            0.0,
+            -1.2659135944146398,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_3_Frag1",
+          "pos": [
+            0.0,
+            -0.860231904241431,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_3_Frag2",
+          "pos": [
+            0.0,
+            -0.3705763156194674,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_3_Frag3",
+          "pos": [
+            0.0,
+            0.8363803100704502,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_3_Frag4",
+          "pos": [
+            0.0,
+            1.2547408996415412,
+            0
+          ]
+        },
+        {
+          "name": "Column_1_3_Frag5",
+          "pos": [
+            0.0,
+            0.33538140463623284,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_1_3",
+      "pos": [
+        5.83,
+        6.29,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Beam_1_0",
+      "pos": [
+        -4,
+        6.42,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_1_0_Frag0",
+          "pos": [
+            -0.8075695311556016,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_0_Frag1",
+          "pos": [
+            -0.19666837892627395,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_0_Frag2",
+          "pos": [
+            1.5537259672280093,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_0_Frag3",
+          "pos": [
+            -1.4653344128821868,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_0_Frag4",
+          "pos": [
+            0.4617573020501687,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_0_Frag5",
+          "pos": [
+            1.044916529931037,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "Sill_1_0",
+      "pos": [
+        -4,
+        3.73,
+        0.05
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Sill_1_0_Frag0",
+          "pos": [
+            -0.8993709718154324,
+            -0.08446070133990356,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_0_Frag1",
+          "pos": [
+            -0.18839160489552617,
+            -0.20454094572325685,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_0_Frag2",
+          "pos": [
+            1.2805012302873702,
+            -0.1994208429099234,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_0_Frag3",
+          "pos": [
+            -1.332825626298348,
+            0.05515600636203115,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_0_Frag4",
+          "pos": [
+            0.14584776171549677,
+            0.06437998863049474,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_0_Frag5",
+          "pos": [
+            1.3042505468007692,
+            0.2005791570900766,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_1_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Beam_1_1",
+      "pos": [
+        0,
+        6.42,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_1_1_Frag0",
+          "pos": [
+            -1.212027018348528,
+            -0.0899104273973258,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_1_Frag1",
+          "pos": [
+            -0.24001449144200215,
+            -0.00791209537551732,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_1_Frag2",
+          "pos": [
+            1.4299470755250159,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_1_Frag3",
+          "pos": [
+            -1.2038849964778962,
+            0.0900895726026742,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_1_Frag4",
+          "pos": [
+            0.459991622936824,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_1_Frag5",
+          "pos": [
+            0.836311099374824,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "Sill_1_1",
+      "pos": [
+        0,
+        3.73,
+        0.05
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Sill_1_1_Frag0",
+          "pos": [
+            -1.3302219036159264,
+            -0.1821566164722768,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_1_Frag1",
+          "pos": [
+            -0.5800936843687804,
+            0.06820396484724668,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_1_Frag2",
+          "pos": [
+            1.2546552004518554,
+            -0.17329210750871143,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_1_Frag3",
+          "pos": [
+            -1.3445463307099346,
+            0.21784338352772328,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_1_Frag4",
+          "pos": [
+            0.36148789313628127,
+            0.00904821321566791,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_1_Frag5",
+          "pos": [
+            1.2750002402940002,
+            0.2267078924912886,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_1_1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Beam_1_2",
+      "pos": [
+        4,
+        6.42,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_1_2_Frag0",
+          "pos": [
+            -0.7478911358191489,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_2_Frag1",
+          "pos": [
+            -0.2855970129398564,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_2_Frag2",
+          "pos": [
+            1.6510863823801971,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_2_Frag3",
+          "pos": [
+            -1.381715669994903,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_2_Frag4",
+          "pos": [
+            0.39987668268009907,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_1_2_Frag5",
+          "pos": [
+            1.1453846121759068,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "Sill_1_2",
+      "pos": [
+        4,
+        3.73,
+        0.05
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Sill_1_2_Frag0",
+          "pos": [
+            -0.8855183786680386,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_2_Frag1",
+          "pos": [
+            0.38690249565545876,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_2_Frag2",
+          "pos": [
+            0.9051221395394318,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_2_Frag3",
+          "pos": [
+            -1.5493446176956867,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_2_Frag4",
+          "pos": [
+            -0.1684290659892864,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Sill_1_2_Frag5",
+          "pos": [
+            1.4959643388670385,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_1_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Side_1_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": []
+    },
+    {
+      "name": "Side_1_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": []
+    },
+    {
+      "name": "Column_2_0",
+      "pos": [
+        -5.83,
+        8.129999999999999,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_2_0_Frag0",
+          "pos": [
+            0.0,
+            -0.7712226110985185,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_0_Frag1",
+          "pos": [
+            0.0,
+            -0.2563446427768969,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_0_Frag2",
+          "pos": [
+            0.0,
+            -1.206741225779676,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_0_Frag3",
+          "pos": [
+            -0.009459986550846755,
+            0.5514820704803584,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_0_Frag4",
+          "pos": [
+            -0.009459986550846696,
+            1.2274585536722418,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_0_Frag5",
+          "pos": [
+            0.09756668908192208,
+            0.8441234267039509,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_2_0",
+      "pos": [
+        -5.83,
+        9.59,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_2_1",
+      "pos": [
+        -2,
+        8.129999999999999,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_2_1_Frag0",
+          "pos": [
+            0.0,
+            -1.299242997072991,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_1_Frag1",
+          "pos": [
+            0.0,
+            -0.8758197686653939,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_1_Frag2",
+          "pos": [
+            0.0,
+            -0.3047287095510177,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_1_Frag3",
+          "pos": [
+            0.015352717590894327,
+            0.3087283477421313,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_1_Frag4",
+          "pos": [
+            -0.045205693323624126,
+            1.0770588318342675,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_1_Frag5",
+          "pos": [
+            0.1247943066763759,
+            0.9113673785307348,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_2_1",
+      "pos": [
+        -2,
+        9.59,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_2_2",
+      "pos": [
+        2,
+        8.129999999999999,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_2_2_Frag0",
+          "pos": [
+            0.0,
+            -0.8143326826356454,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_2_Frag1",
+          "pos": [
+            0.0,
+            -1.2579499276814672,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_2_Frag2",
+          "pos": [
+            -0.028351905309979893,
+            -0.0958748829730591,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_2_Frag3",
+          "pos": [
+            -0.1298652115787673,
+            0.7713582564500472,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_2_Frag4",
+          "pos": [
+            0.04013478842123273,
+            0.6726547972638657,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_2_Frag5",
+          "pos": [
+            -0.007540263953034171,
+            1.3200469005345712,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_2_2",
+      "pos": [
+        2,
+        9.59,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Column_2_3",
+      "pos": [
+        5.83,
+        8.129999999999999,
+        0.12
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Column_2_3_Frag0",
+          "pos": [
+            -0.06984887322113366,
+            -0.7567623145906062,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_3_Frag1",
+          "pos": [
+            0.026090676067319813,
+            -1.1115434417153218,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_3_Frag2",
+          "pos": [
+            0.026090676067319834,
+            -0.39274119379488254,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_3_Frag3",
+          "pos": [
+            0.0,
+            0.3535151504457381,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_3_Frag4",
+          "pos": [
+            0.0,
+            0.7811735670802824,
+            0
+          ]
+        },
+        {
+          "name": "Column_2_3_Frag5",
+          "pos": [
+            0.0,
+            1.209153694854828,
+            0
+          ]
+        }
+      ],
+      "support": true,
+      "hp": 90
+    },
+    {
+      "name": "ColumnCap_2_3",
+      "pos": [
+        5.83,
+        9.59,
+        0.03
+      ],
+      "kind": "fall",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": []
+    },
+    {
+      "name": "Beam_2_0",
+      "pos": [
+        -4,
+        9.719999999999999,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_2_0_Frag0",
+          "pos": [
+            -1.6238900621932595,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_0_Frag1",
+          "pos": [
+            -0.13793072719703645,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_0_Frag2",
+          "pos": [
+            1.5178369756011443,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_0_Frag3",
+          "pos": [
+            -0.9849905502240497,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_0_Frag4",
+          "pos": [
+            0.49627409822961466,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_0_Frag5",
+          "pos": [
+            0.965941312997005,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "Sill_2_0",
+      "pos": [
+        -4,
+        7.029999999999999,
+        0.05
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Sill_2_0_Frag0",
+          "pos": [
+            -1.0949722925142586,
+            -0.19479583435615144,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_0_Frag1",
+          "pos": [
+            0.21452306935201193,
+            -0.16890722388123955,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_0_Frag2",
+          "pos": [
+            1.3130028599311605,
+            -0.16156142327681314,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_0_Frag3",
+          "pos": [
+            -0.9388984117414532,
+            0.1503703148175334,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_0_Frag4",
+          "pos": [
+            0.21140598320660953,
+            0.18067410368301945,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_0_Frag5",
+          "pos": [
+            1.1884249098872126,
+            0.18908316202251071,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_2_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Beam_2_1",
+      "pos": [
+        0,
+        9.719999999999999,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_2_1_Frag0",
+          "pos": [
+            -0.8073852276541023,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_1_Frag1",
+          "pos": [
+            -0.14285454775603942,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_1_Frag2",
+          "pos": [
+            1.2576132942533271,
+            -0.03155186023928004,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_1_Frag3",
+          "pos": [
+            -1.500944424868161,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_1_Frag4",
+          "pos": [
+            0.4057923163457118,
+            -0.0315518602392801,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_1_Frag5",
+          "pos": [
+            0.8852543876307474,
+            0.0674135662678666,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "Sill_2_1",
+      "pos": [
+        0,
+        7.029999999999999,
+        0.05
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Sill_2_1_Frag0",
+          "pos": [
+            -0.6949858883802372,
+            -0.05871932560941566,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_1_Frag1",
+          "pos": [
+            0.1725640045388685,
+            -0.23836151535194597,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_1_Frag2",
+          "pos": [
+            0.8829405753598065,
+            0.028030113327858687,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_1_Frag3",
+          "pos": [
+            -1.490870394311727,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_1_Frag4",
+          "pos": [
+            0.10879245004831507,
+            0.16163848464805397,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_1_Frag5",
+          "pos": [
+            1.5214067132451183,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_2_1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Beam_2_2",
+      "pos": [
+        4,
+        9.719999999999999,
+        0.1
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Beam_2_2_Frag0",
+          "pos": [
+            -1.498398334233212,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_2_Frag1",
+          "pos": [
+            -0.34984762347899623,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_2_Frag2",
+          "pos": [
+            1.5266291725317092,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_2_Frag3",
+          "pos": [
+            -0.932157317061139,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_2_Frag4",
+          "pos": [
+            0.2802818359220919,
+            0.0,
+            0
+          ]
+        },
+        {
+          "name": "Beam_2_2_Frag5",
+          "pos": [
+            0.8979996491048701,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "Sill_2_2",
+      "pos": [
+        4,
+        7.029999999999999,
+        0.05
+      ],
+      "kind": "break",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "Sill_2_2_Frag0",
+          "pos": [
+            -1.1090913992269595,
+            -0.15851793351055452,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_2_Frag1",
+          "pos": [
+            0.24081563613121204,
+            -0.10803493514266291,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_2_Frag2",
+          "pos": [
+            1.1805589443513052,
+            -0.19640994640221426,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_2_Frag3",
+          "pos": [
+            -1.4467518660124454,
+            0.06488923989366727,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_2_Frag4",
+          "pos": [
+            -0.3585159194052345,
+            0.11165938417309795,
+            0
+          ]
+        },
+        {
+          "name": "Sill_2_2_Frag5",
+          "pos": [
+            0.9948801340294449,
+            0.23197406399227907,
+            0
+          ]
+        }
+      ],
+      "support": false,
+      "hp": 40
+    },
+    {
+      "name": "RearWall_2_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 48,
+      "fragments": []
+    },
+    {
+      "name": "Side_2_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": []
+    },
+    {
+      "name": "Side_2_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": []
+    },
+    {
+      "name": "RearWindow_0_0_Frame",
+      "pos": [
+        -4,
+        1.49,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_0_0_Glass",
+      "pos": [
+        -4,
+        1.49,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_0_0_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_0_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_0_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_0_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_0_1_Frame",
+      "pos": [
+        0,
+        1.49,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_0_1_Glass",
+      "pos": [
+        0,
+        1.49,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_0_1_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_1_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_1_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_1_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_0_2_Frame",
+      "pos": [
+        4,
+        1.49,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_0_2_Glass",
+      "pos": [
+        4,
+        1.49,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_0_2_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_2_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_2_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_0_2_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_1_0_Frame",
+      "pos": [
+        -4,
+        4.79,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_1_0_Glass",
+      "pos": [
+        -4,
+        4.79,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_1_0_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_0_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_0_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_0_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "FrontWindow_1_0_Frame",
+      "pos": [
+        -4,
+        5.18,
+        0.16
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "FrontWindow_1_0_Glass",
+      "pos": [
+        -4,
+        5.18,
+        0.16
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "FrontWindow_1_0_GlassShard0",
+          "pos": [
+            0.07980000000000001,
+            -0.6976,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_0_GlassShard1",
+          "pos": [
+            1.2198,
+            -0.05759999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_0_GlassShard2",
+          "pos": [
+            0.07980000000000001,
+            0.5823999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_0_GlassShard3",
+          "pos": [
+            -1.0602,
+            -0.05759999999999999,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_1_1_Frame",
+      "pos": [
+        0,
+        4.79,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_1_1_Glass",
+      "pos": [
+        0,
+        4.79,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_1_1_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_1_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_1_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_1_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "FrontWindow_1_1_Frame",
+      "pos": [
+        0,
+        5.18,
+        0.16
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "FrontWindow_1_1_Glass",
+      "pos": [
+        0,
+        5.18,
+        0.16
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "FrontWindow_1_1_GlassShard0",
+          "pos": [
+            0.07980000000000001,
+            -0.6976,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_1_GlassShard1",
+          "pos": [
+            1.2198,
+            -0.05759999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_1_GlassShard2",
+          "pos": [
+            0.07980000000000001,
+            0.5823999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_1_GlassShard3",
+          "pos": [
+            -1.0602,
+            -0.05759999999999999,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_1_2_Frame",
+      "pos": [
+        4,
+        4.79,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_1_2_Glass",
+      "pos": [
+        4,
+        4.79,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_1_2_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_2_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_2_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_1_2_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "FrontWindow_1_2_Frame",
+      "pos": [
+        4,
+        5.18,
+        0.16
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "FrontWindow_1_2_Glass",
+      "pos": [
+        4,
+        5.18,
+        0.16
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "FrontWindow_1_2_GlassShard0",
+          "pos": [
+            0.07980000000000001,
+            -0.6976,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_2_GlassShard1",
+          "pos": [
+            1.2198,
+            -0.05759999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_2_GlassShard2",
+          "pos": [
+            0.07980000000000001,
+            0.5823999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_1_2_GlassShard3",
+          "pos": [
+            -1.0602,
+            -0.05759999999999999,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_1_0_0_Frame",
+      "pos": [
+        -5.86,
+        4.81,
+        2.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_1_0_0_Glass",
+      "pos": [
+        -5.86,
+        4.81,
+        2.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_1_0_0_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_0_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_0_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_0_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_1_0_1_Frame",
+      "pos": [
+        -5.86,
+        4.81,
+        7.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_1_0_1_Glass",
+      "pos": [
+        -5.86,
+        4.81,
+        7.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_1_0_1_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_1_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_1_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_1_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_1_0_2_Frame",
+      "pos": [
+        -5.86,
+        4.81,
+        12.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_1_0_2_Glass",
+      "pos": [
+        -5.86,
+        4.81,
+        12.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_1_0_2_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_2_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_2_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_0_2_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_1_2_0_Frame",
+      "pos": [
+        5.86,
+        4.81,
+        2.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_1_2_0_Glass",
+      "pos": [
+        5.86,
+        4.81,
+        2.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_1_2_0_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_0_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_0_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_0_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_1_2_1_Frame",
+      "pos": [
+        5.86,
+        4.81,
+        7.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_1_2_1_Glass",
+      "pos": [
+        5.86,
+        4.81,
+        7.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_1_2_1_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_1_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_1_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_1_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_1_2_2_Frame",
+      "pos": [
+        5.86,
+        4.81,
+        12.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_1_2_2_Glass",
+      "pos": [
+        5.86,
+        4.81,
+        12.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 1,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_1_2_2_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_2_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_2_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_1_2_2_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_2_0_Frame",
+      "pos": [
+        -4,
+        8.09,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_2_0_Glass",
+      "pos": [
+        -4,
+        8.09,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_2_0_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_0_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_0_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_0_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "FrontWindow_2_0_Frame",
+      "pos": [
+        -4,
+        8.48,
+        0.16
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "FrontWindow_2_0_Glass",
+      "pos": [
+        -4,
+        8.48,
+        0.16
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "FrontWindow_2_0_GlassShard0",
+          "pos": [
+            0.07980000000000001,
+            -0.6976,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_0_GlassShard1",
+          "pos": [
+            1.2198,
+            -0.05759999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_0_GlassShard2",
+          "pos": [
+            0.07980000000000001,
+            0.5823999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_0_GlassShard3",
+          "pos": [
+            -1.0602,
+            -0.05759999999999999,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_2_1_Frame",
+      "pos": [
+        0,
+        8.09,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_2_1_Glass",
+      "pos": [
+        0,
+        8.09,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_2_1_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_1_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_1_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_1_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "FrontWindow_2_1_Frame",
+      "pos": [
+        0,
+        8.48,
+        0.16
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "FrontWindow_2_1_Glass",
+      "pos": [
+        0,
+        8.48,
+        0.16
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "FrontWindow_2_1_GlassShard0",
+          "pos": [
+            0.07980000000000001,
+            -0.6976,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_1_GlassShard1",
+          "pos": [
+            1.2198,
+            -0.05759999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_1_GlassShard2",
+          "pos": [
+            0.07980000000000001,
+            0.5823999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_1_GlassShard3",
+          "pos": [
+            -1.0602,
+            -0.05759999999999999,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "RearWindow_2_2_Frame",
+      "pos": [
+        4,
+        8.09,
+        15.85
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "RearWindow_2_2_Glass",
+      "pos": [
+        4,
+        8.09,
+        15.85
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "RearWindow_2_2_GlassShard0",
+          "pos": [
+            0.054833333333333345,
+            -0.5014,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_2_GlassShard1",
+          "pos": [
+            0.8381666666666666,
+            -0.0414,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_2_GlassShard2",
+          "pos": [
+            0.054833333333333345,
+            0.4185999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "RearWindow_2_2_GlassShard3",
+          "pos": [
+            -0.7285,
+            -0.0414,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "FrontWindow_2_2_Frame",
+      "pos": [
+        4,
+        8.48,
+        0.16
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "FrontWindow_2_2_Glass",
+      "pos": [
+        4,
+        8.48,
+        0.16
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "FrontWindow_2_2_GlassShard0",
+          "pos": [
+            0.07980000000000001,
+            -0.6976,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_2_GlassShard1",
+          "pos": [
+            1.2198,
+            -0.05759999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_2_GlassShard2",
+          "pos": [
+            0.07980000000000001,
+            0.5823999999999999,
+            0.012
+          ]
+        },
+        {
+          "name": "FrontWindow_2_2_GlassShard3",
+          "pos": [
+            -1.0602,
+            -0.05759999999999999,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_2_0_0_Frame",
+      "pos": [
+        -5.86,
+        8.11,
+        2.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_2_0_0_Glass",
+      "pos": [
+        -5.86,
+        8.11,
+        2.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_2_0_0_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_0_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_0_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_0_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_2_0_1_Frame",
+      "pos": [
+        -5.86,
+        8.11,
+        7.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_2_0_1_Glass",
+      "pos": [
+        -5.86,
+        8.11,
+        7.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_2_0_1_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_1_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_1_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_1_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_2_0_2_Frame",
+      "pos": [
+        -5.86,
+        8.11,
+        12.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_2_0_2_Glass",
+      "pos": [
+        -5.86,
+        8.11,
+        12.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_2_0_2_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_2_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_2_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_0_2_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_2_2_0_Frame",
+      "pos": [
+        5.86,
+        8.11,
+        2.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_2_2_0_Glass",
+      "pos": [
+        5.86,
+        8.11,
+        2.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_2_2_0_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_0_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_0_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_0_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_2_2_1_Frame",
+      "pos": [
+        5.86,
+        8.11,
+        7.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_2_2_1_Glass",
+      "pos": [
+        5.86,
+        8.11,
+        7.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_2_2_1_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_1_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_1_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_1_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "SideWindow_2_2_2_Frame",
+      "pos": [
+        5.86,
+        8.11,
+        12.7
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 90
+    },
+    {
+      "name": "SideWindow_2_2_2_Glass",
+      "pos": [
+        5.86,
+        8.11,
+        12.7
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 2,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "SideWindow_2_2_2_GlassShard0",
+          "pos": [
+            0.028466666666666668,
+            -0.3415333333333333,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_2_GlassShard1",
+          "pos": [
+            0.4351333333333333,
+            -0.028200000000000003,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_2_GlassShard2",
+          "pos": [
+            0.028466666666666668,
+            0.28513333333333335,
+            0.012
+          ]
+        },
+        {
+          "name": "SideWindow_2_2_2_GlassShard3",
+          "pos": [
+            -0.37820000000000004,
+            -0.028200000000000003,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 90,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "EntrySide0_Frame",
+      "pos": [
+        -1.54,
+        1.48,
+        0.12
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "EntrySide0_Glass",
+      "pos": [
+        -1.54,
+        1.48,
+        0.12
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "EntrySide0_GlassShard0",
+          "pos": [
+            0.008866666666666667,
+            -1.0209666666666666,
+            0.012
+          ]
+        },
+        {
+          "name": "EntrySide0_GlassShard1",
+          "pos": [
+            0.13553333333333334,
+            -0.0843,
+            0.012
+          ]
+        },
+        {
+          "name": "EntrySide0_GlassShard2",
+          "pos": [
+            0.008866666666666667,
+            0.8523666666666667,
+            0.012
+          ]
+        },
+        {
+          "name": "EntrySide0_GlassShard3",
+          "pos": [
+            -0.1178,
+            -0.0843,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "DoorLeaf0",
+      "pos": [
+        -1.28,
+        0,
+        0.12
+      ],
+      "kind": "door",
+      "collider": "box",
+      "group": 0,
+      "triangles": 84,
+      "fragments": [],
+      "glass": "DoorGlass0",
+      "angle": -95,
+      "pair": "Entrance"
+    },
+    {
+      "name": "EntrySide2_Frame",
+      "pos": [
+        1.54,
+        1.48,
+        0.12
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "EntrySide2_Glass",
+      "pos": [
+        1.54,
+        1.48,
+        0.12
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "EntrySide2_GlassShard0",
+          "pos": [
+            0.008866666666666667,
+            -1.0209666666666666,
+            0.012
+          ]
+        },
+        {
+          "name": "EntrySide2_GlassShard1",
+          "pos": [
+            0.13553333333333334,
+            -0.0843,
+            0.012
+          ]
+        },
+        {
+          "name": "EntrySide2_GlassShard2",
+          "pos": [
+            0.008866666666666667,
+            0.8523666666666667,
+            0.012
+          ]
+        },
+        {
+          "name": "EntrySide2_GlassShard3",
+          "pos": [
+            -0.1178,
+            -0.0843,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "DoorLeaf2",
+      "pos": [
+        1.28,
+        0,
+        0.12
+      ],
+      "kind": "door",
+      "collider": "box",
+      "group": 0,
+      "triangles": 84,
+      "fragments": [],
+      "glass": "DoorGlass2",
+      "angle": 95,
+      "pair": "Entrance"
+    },
+    {
+      "name": "EntryTransom_Frame",
+      "pos": [
+        0,
+        2.64,
+        0.12
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 72,
+      "fragments": [],
+      "rotation": 0
+    },
+    {
+      "name": "EntryTransom_Glass",
+      "pos": [
+        0,
+        2.64,
+        0.12
+      ],
+      "kind": "glassbreak",
+      "collider": "box",
+      "group": 0,
+      "triangles": 12,
+      "fragments": [
+        {
+          "name": "EntryTransom_GlassShard0",
+          "pos": [
+            0.05623333333333333,
+            -0.13806666666666667,
+            0.012
+          ]
+        },
+        {
+          "name": "EntryTransom_GlassShard1",
+          "pos": [
+            0.8595666666666665,
+            -0.0114,
+            0.012
+          ]
+        },
+        {
+          "name": "EntryTransom_GlassShard2",
+          "pos": [
+            0.05623333333333333,
+            0.11526666666666667,
+            0.012
+          ]
+        },
+        {
+          "name": "EntryTransom_GlassShard3",
+          "pos": [
+            -0.7471,
+            -0.0114,
+            0.012
+          ]
+        }
+      ],
+      "rotation": 0,
+      "hp": 15,
+      "support": false
+    },
+    {
+      "name": "Shutter0",
+      "pos": [
+        -4,
+        2.94,
+        0.11
+      ],
+      "kind": "shutter",
+      "collider": "box",
+      "group": 0,
+      "triangles": 360,
+      "fragments": []
+    },
+    {
+      "name": "ShutterFrame0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 36,
+      "fragments": []
+    },
+    {
+      "name": "Shutter2",
+      "pos": [
+        4,
+        2.94,
+        0.11
+      ],
+      "kind": "shutter",
+      "collider": "box",
+      "group": 0,
+      "triangles": 360,
+      "fragments": []
+    },
+    {
+      "name": "ShutterFrame2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 36,
+      "fragments": []
+    },
+    {
+      "name": "Balcony_1_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "Balcony_1_1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "Balcony_1_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "Balcony_2_0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "Balcony_2_1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "Balcony_2_2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "Parapet",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "fall",
+      "collider": "mesh",
+      "group": 3,
+      "triangles": 60,
+      "fragments": []
+    },
+    {
+      "name": "Awnings",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "none",
+      "group": 0,
+      "triangles": 492,
+      "fragments": []
+    },
+    {
+      "name": "StairVisual0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "none",
+      "group": 0,
+      "triangles": 872,
+      "fragments": []
+    },
+    {
+      "name": "StairRamp0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "invisible",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 2,
+      "fragments": []
+    },
+    {
+      "name": "StairVisual1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "none",
+      "group": 1,
+      "triangles": 872,
+      "fragments": []
+    },
+    {
+      "name": "StairRamp1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "invisible",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 2,
+      "fragments": []
+    },
+    {
+      "name": "LandingRail1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 588,
+      "fragments": []
+    },
+    {
+      "name": "LandingRail2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 588,
+      "fragments": []
+    },
+    {
+      "name": "Furniture0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 0,
+      "triangles": 1740,
+      "fragments": []
+    },
+    {
+      "name": "LightFixtures0",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "lamp",
+      "collider": "none",
+      "group": 0,
+      "triangles": 108,
+      "fragments": []
+    },
+    {
+      "name": "Furniture1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 1,
+      "triangles": 408,
+      "fragments": []
+    },
+    {
+      "name": "LightFixtures1",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "lamp",
+      "collider": "none",
+      "group": 1,
+      "triangles": 108,
+      "fragments": []
+    },
+    {
+      "name": "Furniture2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "mesh",
+      "group": 2,
+      "triangles": 72,
+      "fragments": []
+    },
+    {
+      "name": "LightFixtures2",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "lamp",
+      "collider": "none",
+      "group": 2,
+      "triangles": 108,
+      "fragments": []
+    },
+    {
+      "name": "AirConditioners",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "none",
+      "group": 2,
+      "triangles": 1104,
+      "fragments": []
+    },
+    {
+      "name": "PottedPlants",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "kind": "static",
+      "collider": "none",
+      "group": -1,
+      "triangles": 504,
+      "fragments": []
+    }
+  ]
+}
