@@ -1,0 +1,122 @@
+{
+  "0": {
+    "Unit1": {
+      "vertices": 4388,
+      "triangles": 2132
+    },
+    "Unit2": {
+      "vertices": 5598,
+      "triangles": 2716
+    },
+    "Unit3": {
+      "vertices": 10236,
+      "triangles": 4502
+    },
+    "Unit4": {
+      "vertices": 10236,
+      "triangles": 4502
+    },
+    "Unit5": {
+      "vertices": 2712,
+      "triangles": 1344
+    },
+    "Unit6": {
+      "vertices": 2712,
+      "triangles": 1344
+    },
+    "Street": {
+      "vertices": 18948,
+      "triangles": 8134
+    }
+  },
+  "1": {
+    "Unit1": {
+      "vertices": 3296,
+      "triangles": 1640
+    },
+    "Unit2": {
+      "vertices": 3776,
+      "triangles": 1868
+    },
+    "Unit3": {
+      "vertices": 6746,
+      "triangles": 3046
+    },
+    "Unit4": {
+      "vertices": 6746,
+      "triangles": 3046
+    },
+    "Unit5": {
+      "vertices": 2712,
+      "triangles": 1344
+    },
+    "Unit6": {
+      "vertices": 2712,
+      "triangles": 1344
+    },
+    "Street": {
+      "vertices": 9180,
+      "triangles": 4018
+    }
+  },
+  "2": {
+    "Unit1": {
+      "vertices": 1904,
+      "triangles": 944
+    },
+    "Unit2": {
+      "vertices": 2612,
+      "triangles": 1292
+    },
+    "Unit3": {
+      "vertices": 3738,
+      "triangles": 1794
+    },
+    "Unit4": {
+      "vertices": 3738,
+      "triangles": 1794
+    },
+    "Unit5": {
+      "vertices": 2472,
+      "triangles": 1236
+    },
+    "Unit6": {
+      "vertices": 2472,
+      "triangles": 1236
+    },
+    "Street": {
+      "vertices": 3260,
+      "triangles": 1554
+    }
+  },
+  "3": {
+    "Unit1": {
+      "vertices": 1712,
+      "triangles": 848
+    },
+    "Unit2": {
+      "vertices": 2372,
+      "triangles": 1172
+    },
+    "Unit3": {
+      "vertices": 3410,
+      "triangles": 1638
+    },
+    "Unit4": {
+      "vertices": 3410,
+      "triangles": 1638
+    },
+    "Unit5": {
+      "vertices": 2064,
+      "triangles": 1032
+    },
+    "Unit6": {
+      "vertices": 2064,
+      "triangles": 1032
+    },
+    "Street": {
+      "vertices": 2524,
+      "triangles": 1234
+    }
+  }
+}
