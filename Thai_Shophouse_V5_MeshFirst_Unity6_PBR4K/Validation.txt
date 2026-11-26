@@ -1,1 +1,0 @@
-28 binary mesh files checked. Out-of-range triangle indices: 0. Non-finite vertices/normals: 0. Out-of-range UVs: 0. Degenerate triangles: 0. Triangles opposing stored normals: 0. Seven 4096x4096 textures verified. Unity compilation/render: not tested.
